@@ -1,0 +1,28 @@
+# Goal
+# Desired robot pose in the odom frame.
+# The motion is planar, so theta represents yaw around the vertical axis.
+float64 x
+float64 y
+float64 theta
+---
+# Result
+# success tells the client whether the server reached the target or stopped early.
+bool success
+# Human-readable status, useful for terminal output and debugging.
+string message
+# Last pose measured from odometry when the action finished.
+float64 final_x
+float64 final_y
+float64 final_theta
+---
+# Feedback
+# Current odometry pose while the controller is running.
+float64 current_x
+float64 current_y
+float64 current_theta
+# Remaining planar distance to the target point.
+float64 distance_to_goal
+# Angular error used while pointing/driving toward x,y.
+float64 heading_error
+# Final yaw error against the requested theta.
+float64 yaw_error

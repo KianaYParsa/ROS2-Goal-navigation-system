@@ -1,4 +1,4 @@
-الان درسته اینجوری؟: #include <algorithm>
+#include <algorithm>
 #include <chrono>
 #include <cmath>
 #include <functional>

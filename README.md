@@ -1,7 +1,5 @@
 # ROS 2 Navigation Package — Actions, TF2, and Components
 
-![Demo](RT2_Simulation_demo.gif)
-
 This workspace is the Research Track II (RT2) course assignment at the University of Genova. It implements an action-based robot navigation system inside the `bme_gazebo_sensors` Gazebo simulation. The robot moves to user-defined target poses `(x, y, theta)` using a proportional controller, ROS 2 Actions, TF2, and composable nodes (Components).
 
 The implementation is designed for open, obstacle-free environments — it does not include path planning or obstacle avoidance. Goals should be chosen in clear areas of the simulated world.
